@@ -438,6 +438,7 @@ Create a file such as `source.def` in the project:
 LIBRARY
 EXPORTS
     DWriteCreateFactory=HijackedDWriteCreateFactory @1
+    
 ```
 
 The export declaration maps our internal function name `HijackedDWriteCreateFactory` to the exported name expected by the application `DWriteCreateFactory` and assigns it ordinal `1`.
