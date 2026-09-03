@@ -1,5 +1,9 @@
 # The Site Configuration
 
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
 # Import the theme
 theme: jekyll-theme-chirpy
 
@@ -228,6 +232,7 @@ exclude:
   - purgecss.js
   - "*.config.js"
   - "package*.json"
+  - google*.html
 
 jekyll-archives:
   enabled: [categories, tags]
