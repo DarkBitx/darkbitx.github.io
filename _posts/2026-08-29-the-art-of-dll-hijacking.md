@@ -1,6 +1,6 @@
 ---
 title: "The Art of DLL Hijacking"
-date: 2026-08-29 00:00:00 +0330
+date: 2026-09-03 12:00:00 +0330
 categories: [Red Team, Persistence, Maldev]
 tags: [persistence, dll-hijacking, dll-sideloading, dll-proxying, phantom-dll, red-team]
 description: "An in-depth exploration of DLL Hijacking and related techniques, covering how DLL loading works, how vulnerable applications can be identified, and the differences between classic DLL Hijacking, DLL Sideloading, DLL Proxying, and Phantom DLL Hijacking."
