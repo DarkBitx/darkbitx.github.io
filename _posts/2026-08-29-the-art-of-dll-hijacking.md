@@ -578,7 +578,7 @@ The general format for defining exported functions is:
 
 We will proxy all available functions, while selecting one function for custom handling where additional logic (malware stuff) can be implemented before forwarding execution to the original function.
 
-To simplify this process, we can use an EXT:
+To simplify this process, we can use [**`EXT`**](https://github.com/DarkBitx/EXT) :
 
 ![EXT Tool](/assets/img/art-of-dll-hijack/proxing-jps-tool-ext.png)
 _EXT — DLL export and proxy definition generator_
@@ -719,7 +719,7 @@ At this point, everything is prepared, and we can move on to using our tool:
 ![Phinder](/assets/img/art-of-dll-hijack/phantomdll-obsidian-tool-phinder.png)
 _`Phinder` — Phantom DLL analysis tool_
 
-`Phinder` is a tool developed by us to identify Phantom DLLs using two different approaches.
+[**`Phinder`**](https://github.com/DarkBitx/Phinder) is a tool developed by us to identify Phantom DLLs using two different approaches.
 
 The first method is based on comparing missing DLL references with loaded DLL modules. Phinder analyzes the Procmon events, extracts DLLs that the application attempted to load, and compares them against successfully loaded modules. If a DLL is requested but never appears as successfully loaded, it can be identified as a potential Phantom DLL.
 
