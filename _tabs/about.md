@@ -35,5 +35,6 @@ I research how systems work beneath the surface, experiment with them in the lab
 
 ## Contact
 
-📡 **Telegram Channel:** [DarkBit](https://t.me/DarkBitx)  
+📡 **X:** [@DarkBitxx](https://x.com/DarkBitxx)  
+📡 **Telegram Channel:** [@DarkBitx](https://t.me/DarkBitx)  
 💬 **Telegram Community:** [Join the discussion](https://t.me/DarkBitCommunity)
