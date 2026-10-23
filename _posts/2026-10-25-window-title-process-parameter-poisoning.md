@@ -1,6 +1,6 @@
 ---
 title: "WTP³: Window Title - Process Parameter Poisoning"
-date: 2026-10-24 00:00:00 +0330
+date: 2026-10-24 12:00:00 +0330
 categories: [Red Team, EDR Evasion, Maldev]
 tags: [evasion, red-team, process-injection, peb]
 description: "A novel variation of Process Parameter Poisoning (P³) that abuses the Window Title field for stealthy payload delivery and EDR evasion."
@@ -550,7 +550,7 @@ typedef struct _DKBT_PROCESS_INFO {
 
 #endif // !HEADER_H
 ```
-> For the full source code, visit our [repo](test link).
+> For the full source code, visit [**wtp3-loader**](https://github.com/DarkBitx/wtp3-loader).
 
 Before execution, note the difference between the GUI and CLI app selections: in the GUI method, we additionally add the `CREATE_NEW_CONSOLE` flag to CLI apps such as `cmd` and anything else that opens a console. GUI apps do not use a console host, so this flag is unnecessary for them.
 
