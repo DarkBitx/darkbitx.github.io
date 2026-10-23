@@ -6,7 +6,7 @@ tags: [evasion, red-team, process-injection, peb]
 description: "A novel variation of Process Parameter Poisoning (P³) that abuses the Window Title field for stealthy payload delivery and EDR evasion."
 image:
   path: /assets/img/wtp3/thumbnail.jpg
-  alt: "WTP³"
+  alt: "Window Title - Process Parameter Poisoning"
 ---
 
 > *Hi, I'm Lucyber, a security researcher.*
