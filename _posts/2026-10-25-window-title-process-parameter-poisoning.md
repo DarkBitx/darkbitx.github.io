@@ -1,6 +1,6 @@
 ---
 title: "WTP³: Window Title - Process Parameter Poisoning"
-date: 2026-10-24 00:00:00 +0330
+date: 2026-10-23 12:00:00 +0330
 categories: [Red Team, EDR Evasion, Maldev]
 tags: [evasion, red-team, process-injection, peb]
 description: "A novel variation of Process Parameter Poisoning (P³) that abuses the Window Title field for stealthy payload delivery and EDR evasion."
